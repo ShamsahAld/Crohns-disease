@@ -1,1 +1,1 @@
-# Crohn-s-disease
+# Crohns-disease
