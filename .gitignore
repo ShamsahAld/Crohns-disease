@@ -1,0 +1,12 @@
+/data/
+/results/
+*.tar
+*.tar.gz
+*.mtx.gz
+*.h5ad
+*.h5
+*.pt
+*.ckpt
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
