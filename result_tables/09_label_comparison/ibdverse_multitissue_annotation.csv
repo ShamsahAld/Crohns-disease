@@ -1,0 +1,103 @@
+leiden,Category,Cell type
+B_0,B,Naive B cells
+B_1,Plasma,PlasmaB_CD38+++
+B_10,B,Atypical_B_Cells
+B_11,Plasma,PlasmaB_CD38+
+B_12,B,Memory B_CD27Lo_
+B_13,B,Memory B_HIVEP3
+B_2,B,Memory B_PTPRJ
+B_3,B,Memory B_PDE4D_TEX9
+B_4,Plasma,"PlasmaB_CD38++++,IgG+ IgA+"
+B_5,Plasma,PlasmaB_CD38++
+B_6,B,B_Cell germinal centre/plasmablast
+B_7,B,Blood_Bcell
+B_8,B,B_Cell germinal centre/plasmablast_proliferating
+B_9,B,Resting B cell
+Epithelial_0,Colonocyte,Colonocyte RBFOX1+
+Epithelial_1,Enterocyte,Enterocyte top Villus
+Epithelial_10,Colonocyte,Colon_Progenitor_OLMF4+
+Epithelial_12,Stem,Enterocyte stem cell OLFM4+ LGR5+
+Epithelial_13,Stem,Colonocyte stem cell LGR5+
+Epithelial_14,Stem,Enterocyte stem cell MKI67+
+Epithelial_15,Secretory,Tuft
+Epithelial_16,Secretory,Ileum_Goblet_MUC2+
+Epithelial_17,Colonocyte,Colonocyte_Progenitor_OLMF4++Ki67+
+Epithelial_18,Enterocyte,Enterocyte _Progenitor_OLMF4++Ki67+
+Epithelial_19,Colonocyte,Colonocyte BEST4+
+Epithelial_2,Enterocyte,Enterocyte progenitor/precursor crypt OLFM4+
+Epithelial_20,Colonocyte,Colonocyte_CAECAM7++_KRT20++ IFI27++
+Epithelial_21,Colonocyte,Colonocyte TPT1+
+Epithelial_22,Colonocyte,Epithelial_Progenitor_OLMF4++
+Epithelial_23,Secretory,Enteroendocrine_NTS_PYY_GCG_ISL1+
+Epithelial_24,Colonocyte,Colon_Progenitor_OLMF4+Ki67+
+Epithelial_25,Enterocyte,Enterocyte progenitor/precursor crypt OLFM4++
+Epithelial_26,Secretory,Colon_ileum_Enterochromaffin_TPH1_CES1+
+Epithelial_27,Secretory,Colon_Goblet_ATOH1 (MUC2_Lo)
+Epithelial_28,Secretory,Ileum_goblet_Ki67+
+Epithelial_29,Enterocyte,Enterocyte BEST4+ 
+Epithelial_3,Colonocyte,Colonocyte_CAECAM7+_KRT20+ IFI27+
+Epithelial_30,Enterocyte,Enterocyte mid villus ALDOB+
+Epithelial_31,Secretory,Ileum_Paneth_DEF6A
+Epithelial_32,Secretory,Colon_Goblet_MUC2++ BCAS1+
+Epithelial_4,Secretory,Ileum_Goblet_MUC2++_BCAS1++
+Epithelial_5,Secretory,Colon_Goblet_MUC2+ SPDEF+
+Epithelial_6,Secretory,Ileum_Goblet_MUC2+_BCAS1+
+Epithelial_7,Stem,Enterocytes progenitor crypt OLFM4++
+Epithelial_8,Enterocyte,
+Epithelial_9,Secretory,Ileum_Goblet_MUC2+_SPINK4++
+Mast,Myeloid,Mast
+Mesenchymal_0,Mesenchymal,Fibroblast_CPM+
+Mesenchymal_1,Mesenchymal,LP fibroblast ADAMDEC1
+Mesenchymal_10,Mesenchymal,Fibroblast ARHGAP15+
+Mesenchymal_11,Mesenchymal,EC lymphatic
+Mesenchymal_12,Mesenchymal,Fibroblast
+Mesenchymal_13,Mesenchymal,Fibroblast_C3+
+Mesenchymal_14,Mesenchymal,Glial_NRXN1
+Mesenchymal_16,Mesenchymal,Myofibroblast_GREM2
+Mesenchymal_2,Mesenchymal,Myofibroblast_ADGRL3
+Mesenchymal_3,Mesenchymal,Pericyte
+Mesenchymal_4,Mesenchymal,EC venous
+Mesenchymal_5,Mesenchymal,EC capilliary
+Mesenchymal_6,Mesenchymal,Fibroblast_NPY_GRIN2A+
+Mesenchymal_7,Mesenchymal,Vascular smooth muscle
+Mesenchymal_8,Mesenchymal,Myofibroblast_EEF1A1
+Mesenchymal_9,Mesenchymal,Crypt fibroblast pi16
+Myeloid_0,Myeloid,Classical monocytes
+Myeloid_1,Myeloid,Intermediate monocytes
+Myeloid_10,Myeloid,CCL3/CCL4_CXCL9/10_Macrophages
+Myeloid_11,Myeloid,pDCs
+Myeloid_12,Myeloid,Blood_S100A8midCD14mid_BANK1+
+Myeloid_14,Myeloid,Macrophages_Proliferating
+Myeloid_15,Myeloid,Blood_MALAT1+_CD14mid_CD16- CSF1Rlo
+Myeloid_16,Myeloid,cDC1
+Myeloid_17,Myeloid,Macrophages_MMP9+
+Myeloid_2,Myeloid,Macrophages_CD163+
+Myeloid_3,Myeloid,Non-classical monocytes
+Myeloid_4,Myeloid,Macrophages_CD163++
+Myeloid_5,Myeloid,Blood_S100A8midCD14mid_CD247+
+Myeloid_7,Myeloid,Monocytes_S100A8/9+
+Myeloid_8,Myeloid,cDC2
+Myeloid_9,Myeloid,Bin for low quality tissue cDC1 and cDC2
+Platelet,Myeloid,Platelet
+T_0,T,CD4+_CRM/Naive
+T_1,T,CD4+_CRM 
+T_10,T,T_cell_GD_KLRG1+
+T_11,T,CD4+_memory_2
+T_12,T,Tissue_resident_T_cell_GD
+T_13,T,CD4+_Treg
+T_14,T,Tissue_?
+T_15,T,CD8+_EM_TIGIT+
+T_16,T,Tissue_CD4+_Treg
+T_19,T,NK2
+T_2,T,CD8+_TRM_TGCR2+
+T_20,T,ILCs_Nkp44
+T_21,T,T cell_GD_LEF1+
+T_22,T,CD4- CD8-_Ki67+
+T_24,T,CD4- CD8-_GZMK+
+T_3,T,CD4+_memory
+T_4,T,CD8+_GZMK+
+T_5,T,CD4+_PASK
+T_6,T,CD4+_memory_CXCR6+
+T_7,T,NK1
+T_8,T,CD8+_EM_THEMIS+
+T_9,T,CD8+_Naive

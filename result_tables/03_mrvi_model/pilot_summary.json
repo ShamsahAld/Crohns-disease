@@ -1,0 +1,88 @@
+{
+ "versions": {
+  "scvi": "1.5.2",
+  "jax": "0.12.0.1"
+ },
+ "devices": [
+  "cuda:0"
+ ],
+ "gpu": [
+  "NVIDIA RTX 5000 Ada Generation",
+  "0",
+  "317",
+  "32760"
+ ],
+ "benchmark": {
+  "gpu_s": 0.0014067649841308593,
+  "gpu_dev": "{CudaDevice(id=0)}",
+  "cpu_s_scaled": 0.2569739023844401,
+  "cpu_dev": "{CpuDevice(id=0)}",
+  "speedup": 182.6701014620478
+ },
+ "pilot_cells": 15015,
+ "cap_per_biopsy": 455,
+ "full_cells": 61538,
+ "n_genes": 3000,
+ "train": {
+  "128": {
+   "batch_size": 128,
+   "epochs": 12,
+   "seconds": 27.686661958694458,
+   "sec_per_epoch": 2.307221829891205,
+   "gpu_util_max": 0.0,
+   "gpu_util_mean": 0.0,
+   "gpu_mem_max_mib": 911.0,
+   "live_array_platforms": {},
+   "history_cols": [
+    "kl_weight",
+    "validation_loss",
+    "elbo_validation",
+    "reconstruction_loss_validation",
+    "kl_local_validation",
+    "kl_global_validation",
+    "train_loss",
+    "elbo_train",
+    "reconstruction_loss_train",
+    "kl_local_train",
+    "kl_global_train"
+   ]
+  },
+  "512": {
+   "batch_size": 512,
+   "epochs": 12,
+   "seconds": 18.404309272766113,
+   "sec_per_epoch": 1.533692439397176,
+   "gpu_util_max": 0.0,
+   "gpu_util_mean": 0.0,
+   "gpu_mem_max_mib": 911.0,
+   "live_array_platforms": {},
+   "history_cols": [
+    "kl_weight",
+    "validation_loss",
+    "elbo_validation",
+    "reconstruction_loss_validation",
+    "kl_local_validation",
+    "kl_global_validation",
+    "train_loss",
+    "elbo_train",
+    "reconstruction_loss_train",
+    "kl_local_train",
+    "kl_global_train"
+   ]
+  }
+ },
+ "batch_used_for_downstream": 512,
+ "time_latent_u_s": 0.34424638748168945,
+ "time_local_sample_distances_s": 2.1393826007843018,
+ "time_differential_abundance_s": 2.6969387531280518,
+ "time_differential_expression_s": 24.425588130950928,
+ "extrapolation": {
+  "factor": 4.098434898434898,
+  "sec_per_epoch_full": 6.285738617091137,
+  "hours_for_130_epochs": 0.22698500561717994,
+  "hours_for_400_epochs": 0.6984154018990152,
+  "default_epochs_full": 130,
+  "de_minutes_full": 1.668444713511442,
+  "da_minutes_full": 0.18422046507935846
+ }
+}

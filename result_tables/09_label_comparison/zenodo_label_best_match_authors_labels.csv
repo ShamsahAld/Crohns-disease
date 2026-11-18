@@ -1,0 +1,22 @@
+authors_label,n_matched_cells,top_our_state,top_share,second_state,second_share
+IgA plasma,5048,"IgA plasma, stress-response (JUN/FOS)",0.317,"IgA plasma, core",0.281
+CD103+ CD8,3638,CD8 tissue-resident memory,0.651,IL7R+ memory CD4,0.127
+CD4 Tcm,1748,CD4 naive/central memory,0.447,Treg-like CD4 (CTLA4+ ICOS+),0.289
+Memory B,1506,Memory B (GPR183+),0.619,Memory B (TNFRSF13B+),0.321
+CD103- CD4,1485,IL7R+ memory CD4,0.824,T low-UMI (IL7R+),0.072
+Naive B,1453,Naive/activated B (HLA-DR-high),0.367,Naive/transitional B (CXCR4+),0.315
+gdT,1279,gd/innate-like IEL,0.511,CD8 tissue-resident memory,0.428
+Macrophage,1200,Resident macrophage (C1Q+ SELENOP+),0.491,C1Q+ macrophage (low-UMI),0.356
+KLRG1+ CD8,1200,CD8 GZMK+ effector-memory,0.743,T low-UMI (CD8 Trm-like),0.161
+Monocyte,1190,Inflammatory macrophage/monocyte,0.53,Classical monocyte,0.258
+CD103+ CD4,1144,MAIT/Th17-like,0.688,IL7R+ memory CD4,0.205
+Mast,891,"Mast, activated (IEG-high)",0.346,"Mast, resting (ribosomal-high)",0.322
+Neutrophil,866,Neutrophil,0.998,Classical monocyte,0.001
+Treg,852,Treg-like CD4 (CTLA4+ ICOS+),0.853,T low-UMI (CD4 ICOS+),0.087
+IgG plasma,492,"IgA plasma, core",0.268,Plasma low-UMI (ribosomal-high),0.264
+NK,357,NK,0.964,gd/innate-like IEL,0.011
+GC B,347,Germinal-centre B (RGS13+ LRMP+),0.579,Cycling B (GC dark-zone-like),0.401
+DC,242,cDC2,0.851,cDC1,0.087
+Proliferating T,225,Cycling T,0.422,gd/innate-like IEL,0.231
+ILCs,125,ILC3,0.92,MAIT/Th17-like,0.072
+MAIT,55,MAIT/Th17-like,0.655,IL7R+ memory CD4,0.164

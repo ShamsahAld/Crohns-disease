@@ -1,0 +1,11 @@
+{
+ "min_genes": 200,
+ "max_pct_mt": 25.0,
+ "doublet_rate": 0.06,
+ "n_raw": 497181,
+ "n_kept": 337984,
+ "n_low_genes": 16659,
+ "n_high_mt": 149521,
+ "n_doublet": 6333,
+ "n_samples_flagged": 45
+}

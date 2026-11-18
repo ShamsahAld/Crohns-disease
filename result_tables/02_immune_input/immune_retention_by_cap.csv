@@ -1,0 +1,5 @@
+cap,cells_kept,pct_cells_kept,median_pct_kept_non,median_pct_kept_inf,mwu_p_status,min_cells_per_biopsy,n_biopsies_lt100,n_biopsies_lt200,T_NK_median_pct_kept_non,T_NK_median_pct_kept_inf,T_NK_mwu_p,plasma_median_pct_kept_non,plasma_median_pct_kept_inf,plasma_mwu_p,myeloid_median_pct_kept_non,myeloid_median_pct_kept_inf,myeloid_mwu_p,mast_median_pct_kept_non,mast_median_pct_kept_inf,mast_mwu_p,B_median_pct_kept_non,B_median_pct_kept_inf,B_mwu_p
+25,65191,100.0,100.0,100.0,,562,0,0,100.0,100.0,,100.0,100.0,,100.0,100.0,,100.0,100.0,,100.0,100.0,
+20,63992,98.1608,98.2621,98.1678,0.8712,551,0,0,98.1812,97.7941,0.8854,98.7852,98.7985,0.5889,97.7979,98.2456,0.4072,97.1371,98.8764,0.2228,99.5585,99.1379,0.9693
+15,61538,94.3965,94.553,93.2337,0.5284,518,0,0,93.5608,92.3077,0.5766,97.0632,97.281,0.6525,92.9951,92.9448,0.6919,90.7487,92.6316,0.5643,97.7925,96.9697,0.5145
+10,55643,85.3538,84.9645,84.7518,0.8712,462,0,0,82.7072,79.4451,0.6525,93.9308,94.8503,0.4177,82.8191,82.8829,0.843,60.3922,68.4211,0.3046,85.0932,91.3836,0.4057

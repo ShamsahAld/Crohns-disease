@@ -1,0 +1,28 @@
+unit,kind,lineage,state,confidence,n_cells,n_biopsies_ge20
+lineage:T_NK,lineage,T_NK,T_NK,,24438,33
+lineage:plasma,lineage,plasma,plasma,,18810,33
+lineage:B,lineage,B,B,,8335,27
+lineage:myeloid,lineage,myeloid,myeloid,,7196,33
+lineage:mast,lineage,mast,mast,,2079,23
+state:C1Q+ macrophage (low-UMI),state,myeloid,C1Q+ macrophage (low-UMI),medium,934,16
+state:CD4 naive/central memory,state,T_NK,CD4 naive/central memory,medium,2054,19
+state:CD8 GZMK+ effector-memory,state,T_NK,CD8 GZMK+ effector-memory,high,2254,30
+state:CD8 tissue-resident memory,state,T_NK,CD8 tissue-resident memory,high,5365,31
+state:IL7R+ memory CD4,state,T_NK,IL7R+ memory CD4,medium,4113,31
+"state:IgA plasma, MT-high",state,plasma,"IgA plasma, MT-high",low,3299,28
+"state:IgA plasma, core",state,plasma,"IgA plasma, core",medium,5080,31
+"state:IgA plasma, secretory (XBP1-high)",state,plasma,"IgA plasma, secretory (XBP1-high)",medium,1814,29
+"state:IgA plasma, stress-response (JUN/FOS)",state,plasma,"IgA plasma, stress-response (JUN/FOS)",medium,6542,32
+state:MAIT/Th17-like,state,T_NK,MAIT/Th17-like,medium,1985,28
+"state:Mast, activated (IEG-high)",state,mast,"Mast, activated (IEG-high)",medium,812,13
+state:Memory B (GPR183+),state,B,Memory B (GPR183+),medium,2311,19
+state:Memory B (TNFRSF13B+),state,B,Memory B (TNFRSF13B+),medium,1012,13
+state:NK,state,T_NK,NK,high,868,17
+state:Naive/activated B (HLA-DR-high),state,B,Naive/activated B (HLA-DR-high),medium,1365,11
+state:Plasma low-UMI (ribosomal-high),state,plasma,Plasma low-UMI (ribosomal-high),low,1495,23
+state:Resident macrophage (C1Q+ SELENOP+),state,myeloid,Resident macrophage (C1Q+ SELENOP+),high,1310,23
+state:T low-UMI (CD4 ICOS+),state,T_NK,T low-UMI (CD4 ICOS+),low,971,12
+state:T low-UMI (CD8 Trm-like),state,T_NK,T low-UMI (CD8 Trm-like),low,1068,20
+state:Treg-like CD4 (CTLA4+ ICOS+),state,T_NK,Treg-like CD4 (CTLA4+ ICOS+),high,3211,28
+state:cDC2,state,myeloid,cDC2,high,823,18
+state:gd/innate-like IEL,state,T_NK,gd/innate-like IEL,high,1402,19

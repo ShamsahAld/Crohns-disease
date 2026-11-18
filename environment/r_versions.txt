@@ -1,0 +1,18 @@
+# Shared R environment ('r'): edgeR, limma, plotting
+R 4.5.3
+edgeR==4.10.7
+limma==3.68.5
+fgsea==1.36.2
+msigdbr==26.1.1
+data.table==1.18.6.1
+tidyverse==2.0.0
+Matrix==1.7.6
+BiocParallel==1.44.0
+
+
+# Pathway environment ('r_pathway'): msigdbr 7.5.1 (newer msigdbr downloads from zenodo.org)
+R 4.4.3
+fgsea==1.32.2
+msigdbr==7.5.1
+data.table==1.18.6.1
+

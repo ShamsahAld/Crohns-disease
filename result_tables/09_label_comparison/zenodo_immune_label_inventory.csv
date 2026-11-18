@@ -1,0 +1,22 @@
+lineage,cluster_label2,n_cells_zenodo,n_cells_also_in_our_immune_set
+bcell,IgA plasma,22646,5174
+bcell,Memory B,7871,1506
+bcell,Naive B,4001,1453
+bcell,IgG plasma,1188,495
+bcell,GC B,925,347
+myeloid,Macrophage,4296,1200
+myeloid,Mast,3251,891
+myeloid,Monocyte,1707,1190
+myeloid,Neutrophil,972,866
+myeloid,DC,679,242
+tcell,CD103+ CD8,11636,3638
+tcell,CD4 Tcm,7589,1749
+tcell,CD103- CD4,5227,1485
+tcell,gdT,4677,1279
+tcell,CD103+ CD4,3100,1144
+tcell,KLRG1+ CD8,2867,1200
+tcell,Treg,2146,852
+tcell,NK,973,357
+tcell,Proliferating T,653,239
+tcell,ILCs,385,125
+tcell,MAIT,277,55

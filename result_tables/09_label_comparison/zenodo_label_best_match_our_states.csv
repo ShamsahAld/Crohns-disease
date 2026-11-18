@@ -1,0 +1,45 @@
+our_state,lineage,confidence,n_matched_cells,top_authors_label,top_share,second_label,second_share
+Memory B (GPR183+),B,medium,1053,Memory B,0.885,Naive B,0.079
+Naive/activated B (HLA-DR-high),B,medium,551,Naive B,0.967,Memory B,0.022
+Memory B (TNFRSF13B+),B,medium,503,Memory B,0.962,Naive B,0.018
+Naive/transitional B (CXCR4+),B,medium,462,Naive B,0.989,Memory B,0.006
+Naive B,B,high,338,Naive B,0.988,IgA plasma,0.009
+Germinal-centre B (RGS13+ LRMP+),B,high,208,GC B,0.966,Memory B,0.019
+Cycling B (GC dark-zone-like),B,high,143,GC B,0.972,Proliferating T,0.028
+B low-UMI,B,low,92,Memory B,0.63,Naive B,0.37
+Plasmablast (B-lineage cluster),B,high,1,IgA plasma,1.0,,0.0
+CD8 tissue-resident memory,T_NK,high,3018,CD103+ CD8,0.785,gdT,0.181
+IL7R+ memory CD4,T_NK,medium,2063,CD103- CD4,0.593,CD103+ CD8,0.224
+Treg-like CD4 (CTLA4+ ICOS+),T_NK,high,1279,Treg,0.568,CD4 Tcm,0.395
+CD8 GZMK+ effector-memory,T_NK,high,1123,KLRG1+ CD8,0.794,CD103+ CD8,0.147
+MAIT/Th17-like,T_NK,medium,977,CD103+ CD4,0.806,CD103- CD4,0.059
+CD4 naive/central memory,T_NK,medium,843,CD4 Tcm,0.926,CD103- CD4,0.025
+gd/innate-like IEL,T_NK,high,713,gdT,0.916,Proliferating T,0.073
+T low-UMI (CD8 Trm-like),T_NK,low,671,CD103+ CD8,0.647,KLRG1+ CD8,0.288
+T low-UMI (CD4 ICOS+),T_NK,low,407,CD4 Tcm,0.749,Treg,0.182
+NK,T_NK,high,369,NK,0.932,Proliferating T,0.022
+T low-UMI (IL7R+),T_NK,low,342,CD103+ CD8,0.316,CD103- CD4,0.313
+Cycling T,T_NK,high,122,Proliferating T,0.779,Treg,0.082
+ILC3,T_NK,high,120,ILCs,0.958,NK,0.025
+"Mast, activated (IEG-high)",mast,medium,308,Mast,1.0,,0.0
+"Mast, resting (ribosomal-high)",mast,medium,287,Mast,1.0,,0.0
+"Mast, core (KIT+ MS4A2+)",mast,high,232,Mast,0.978,Macrophage,0.017
+Mast low-information,mast,low,67,Mast,1.0,,0.0
+Neutrophil,myeloid,high,864,Neutrophil,1.0,,0.0
+Resident macrophage (C1Q+ SELENOP+),myeloid,high,639,Macrophage,0.922,Monocyte,0.077
+Inflammatory macrophage/monocyte,myeloid,high,632,Monocyte,0.998,Neutrophil,0.002
+C1Q+ macrophage (low-UMI),myeloid,medium,455,Macrophage,0.938,Monocyte,0.055
+cDC2,myeloid,high,361,DC,0.571,Monocyte,0.396
+Classical monocyte,myeloid,high,312,Monocyte,0.984,Macrophage,0.013
+Macrophage (CSF1R+),myeloid,medium,143,Macrophage,0.727,Monocyte,0.203
+Myeloid low-UMI (cDC2-like),myeloid,low,68,Macrophage,0.809,Proliferating T,0.074
+Myeloid low-UMI (ribosomal),myeloid,low,55,Proliferating T,0.818,Memory B,0.164
+cDC1,myeloid,high,23,DC,0.913,Macrophage,0.087
+Myeloid MT-high low-information,myeloid,low,6,Macrophage,0.667,Monocyte,0.333
+pDC,myeloid,high,1,IgA plasma,1.0,,0.0
+"IgA plasma, stress-response (JUN/FOS)",plasma,medium,1677,IgA plasma,0.953,IgG plasma,0.047
+"IgA plasma, core",plasma,medium,1553,IgA plasma,0.914,IgG plasma,0.085
+"IgA plasma, MT-high",plasma,low,1114,IgA plasma,0.95,IgG plasma,0.05
+"IgA plasma, secretory (XBP1-high)",plasma,medium,589,IgA plasma,0.879,IgG plasma,0.119
+Plasma low-UMI (ribosomal-high),plasma,low,478,IgA plasma,0.728,IgG plasma,0.272
+"Plasmablast-like (MT-high, PTPRC+)",plasma,low,81,IgA plasma,0.667,IgG plasma,0.296

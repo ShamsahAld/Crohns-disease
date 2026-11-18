@@ -1,0 +1,4 @@
+PC,spearman_with_ambient,p,status_coef_site_adj,status_p_site_adj,status_coef_plus_ambient,status_p_plus_ambient,ambient_coef,ambient_p
+PC1,0.736965,1e-06,0.300044,0.228259,0.327617,0.101407,0.505375,0.000167
+PC2,0.307487,0.081733,-1.151992,0.00051,-1.135869,0.000448,0.295515,0.099029
+PC3,-0.087233,0.629299,0.652884,0.052252,0.657316,0.05432,0.081239,0.684654

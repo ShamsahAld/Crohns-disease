@@ -1,0 +1,53 @@
+cluster,state,confidence,evidence,lineage,n_cells,n_biopsies,frac_inflamed_cells,median_umi,median_pct_mt
+T_NK_0,CD8 GZMK+ effector-memory,high,"CD8A, GZMK, CCL5, CCL4, NKG7, GZMA; CD69+",T_NK,2254,33,0.625,1787.5,6.301
+T_NK_1,CD8 tissue-resident memory,high,"CD8A/B, ITGA1, ITGAE, CD69, KLRK1, IL7R",T_NK,5365,33,0.426,2371.0,6.292
+T_NK_2,Cycling T,high,"STMN1, TUBA1B, HMGB2, PCLAF, MKI67-set",T_NK,294,32,0.711,5727.5,4.825
+T_NK_3,Treg-like CD4 (CTLA4+ ICOS+),high,"CTLA4, ICOS, TIGIT, BATF, MAF, IL2RA; FOXP3 only low (mean 0.31)",T_NK,3211,33,0.704,2247.0,5.037
+T_NK_4,CD4 naive/central memory,medium,"CCR7, SELL/TCF7/LEF1 set, IL7R, ribosomal-high",T_NK,2054,32,0.502,2219.5,4.985
+T_NK_5,gd/innate-like IEL,high,"TRDC, ITGAE, ITGA1, CD7, TYROBP, FCER1G, CD160",T_NK,1402,30,0.355,3552.0,7.412
+T_NK_6,MAIT/Th17-like,medium,"KLRB1, RORA, SLC4A10, IL7R, S100A4",T_NK,1985,33,0.507,2340.0,6.287
+T_NK_7,IL7R+ memory CD4,medium,"IL7R, ANXA1, S100A4, LTB, KLRB1",T_NK,4113,33,0.501,2205.0,5.629
+T_NK_8,T low-UMI (CD8 Trm-like),low,"ITGA1, ITGAE, CD8A low; median UMI 1,372, MT 9.6%",T_NK,1068,33,0.525,1371.5,9.556
+T_NK_9,T low-UMI (IL7R+),low,"IL7R, ITGA1, RORA; median UMI 1,383, MT 9.3%",T_NK,649,33,0.57,1383.0,9.301
+T_NK_10,T low-UMI (CD4 ICOS+),low,"ICOS, CTLA4, CCR7; median UMI 1,230, MT 9.0%",T_NK,971,32,0.653,1230.0,9.013
+T_NK_11,NK,high,"NKG7, KLRD1, KLRF1, FCER1G, TYROBP, IL2RB",T_NK,868,33,0.684,2278.5,6.777
+T_NK_12,ILC3,high,"KIT, IL4I1, IL1R1 set, LST1, AREG, KLRB1, IL7R",T_NK,204,32,0.446,2832.0,5.603
+plasma_0,"IgA plasma, MT-high",low,mitochondrial genes top markers; IgA 79%,plasma,3299,33,0.567,8145.0,2.596
+plasma_1,"IgA plasma, secretory (XBP1-high)",medium,"XBP1, ELL2, FUT8; IgA 69%",plasma,1814,32,0.576,12114.5,2.369
+plasma_2,"IgA plasma, core",medium,"ANKRD28, RAPGEF2, PDE4B; IgA 72%, IgM 11%",plasma,5080,33,0.601,10988.0,2.205
+plasma_3,"IgA plasma, stress-response (JUN/FOS)",medium,"JUNB, JUN, FOS, DUSP1, NFKBIA (immediate-early); IgA 83%",plasma,6542,33,0.594,11542.0,1.796
+plasma_4,Plasma low-quality (MT-high),exclude,"heavy-chain UMI median 21; MT genes top; UMI 2,165",plasma,344,29,0.57,2164.5,10.123
+plasma_5,"Plasmablast-like (MT-high, PTPRC+)",low,"PTPRC, MT genes, immature-plasmablast score; UMI 3,808",plasma,580,31,0.488,3808.0,3.061
+plasma_6,Plasma low-UMI (ribosomal-high),low,"SSR4, FKBP11, MZB1 but heavy-chain UMI median 252; UMI 2,331",plasma,1495,33,0.678,2331.0,0.752
+B_0,Memory B (TNFRSF13B+),medium,"TNFRSF13B, CRIP1, SOX5; memory/atypical-B scores",B,1012,32,0.66,3601.5,6.621
+B_1,Memory B (GPR183+),medium,"GPR183, ANK3, B2M; memory-B score",B,2311,30,0.694,3035.0,6.576
+B_2,Naive/activated B (HLA-DR-high),medium,"HLA-DRA/DRB1, IGHM, IGHD",B,1365,26,0.674,2305.0,6.449
+B_3,Naive B,high,"IGHD, IGHM, FCRL1, BACH2, FOXP1",B,892,25,0.747,2558.0,5.969
+B_4,B low-UMI,low,"BANK1 only; UMI 1,588, MT 9.6%",B,252,24,0.698,1588.0,9.638
+B_5,Naive/transitional B (CXCR4+),medium,"BACH2, IGHD, IGHM, CXCR4, BTG1",B,1441,27,0.802,2569.0,6.047
+B_6,Cycling B (GC dark-zone-like),high,"HMGB2, STMN1, TUBA1B; GC-B score 1.92",B,326,17,0.534,8454.5,3.722
+B_7,Germinal-centre B (RGS13+ LRMP+),high,"RGS13, LRMP, MYO1E, RFTN1",B,623,18,0.673,3217.0,3.771
+B_8,Plasmablast (B-lineage cluster),high,"MZB1, XBP1, SEC11C, DERL3, SSR4; UMI 21,879",B,113,18,0.903,21879.0,3.918
+mast_0,"Mast, activated (IEG-high)",medium,"FOSB, EGR1, CD69, NFKBIA (immediate-early)",mast,812,32,0.84,1927.0,7.094
+mast_1,Mast ambiguous (PTPRC+),exclude,"23 cells; PTPRC, PRKCH, no mast signature",mast,23,14,0.478,1480.0,7.074
+mast_2,"Mast, resting (ribosomal-high)",medium,"FTH1, ribosomal genes",mast,458,32,0.611,1216.0,8.687
+mast_3,"Mast, core (KIT+ MS4A2+)",high,"MS4A2, KIT, GRAP2, TXNIP",mast,598,32,0.799,1632.0,7.817
+mast_4,Mast low-information,low,"ZBTB20, ARHGAP15, ZEB2; weak mast scores",mast,211,29,0.863,1852.0,7.267
+myeloid_0,cDC2,high,"CLEC10A, HLA-DQB1/DQA1, HLA-DPB1, CD1C-set",myeloid,823,33,0.657,7895.0,5.25
+myeloid_1,Classical monocyte,high,"FCN1, VCAN, S100A4, CYBB; 81% inflamed",myeloid,548,31,0.808,5613.0,4.955
+myeloid_2,Macrophage (CSF1R+),medium,"CSF1R, UTRN, SASH1, FRMD4B",myeloid,363,33,0.606,6812.0,6.71
+myeloid_3,Resident macrophage (C1Q+ SELENOP+),high,"C1QA/B, SELENOP, LGMN, SLC40A1, MAF",myeloid,1310,33,0.631,6324.0,6.161
+myeloid_4,C1Q+ macrophage (low-UMI),medium,"C1QA/B/C, AIF1, FTL; median UMI 837",myeloid,934,33,0.653,836.5,4.76
+myeloid_5,Myeloid ambiguous (39 cells),exclude,"HMGB2, IL32, ribosomal; 39 cells",myeloid,39,16,0.718,1092.0,1.55
+myeloid_6,Myeloid MT-high low-information,low,"ZBTB20, MT genes, TOX",myeloid,142,27,0.648,3280.0,7.159
+myeloid_7,cDC1,high,"FLT3, WDFY4, CLNK, AUTS2; cDC1 score 3.36",myeloid,178,29,0.708,10289.5,5.097
+myeloid_8,Myeloid low-UMI (cDC2-like),low,ribosomal genes; UMI 953,myeloid,303,32,0.578,953.0,2.159
+myeloid_9,Inflammatory macrophage/monocyte,high,"IL1RN, SOD2, KYNU, CD44, TIMP1, CD300E; 98% inflamed cells, 16 biopsies",myeloid,1135,16,0.983,6301.0,4.907
+myeloid_10,pDC,high,"TCF4, GZMB, PLAC8, BCL11A",myeloid,63,17,0.952,8433.0,3.41
+myeloid_11,Mature DC (LAMP3+),high,"LAMP3, CCR7, BIRC3, FSCN1",myeloid,71,17,0.901,9017.0,5.193
+myeloid_12,Epithelial-contaminated (Paneth genes),exclude,"REG3A, DEFA5, DEFA6, PLA2G2A, TFF3",myeloid,80,20,0.538,5511.5,3.096
+myeloid_13,Myeloid low-UMI (ribosomal),low,"ribosomal genes; UMI 1,217",myeloid,265,25,0.676,1217.0,1.28
+myeloid_14,Neutrophil,high,"NAMPT, CSF3R, LITAF, LYN; UMI 692 (typical of neutrophils)",myeloid,208,12,0.981,692.5,1.802
+myeloid_15,Neutrophil,high,"NAMPT, IFITM2, SOD2, S100A8/A9; UMI 750; 93% inflamed",myeloid,853,16,0.925,750.0,1.462
+myeloid_16,Myeloid ambiguous (32 cells),exclude,"32 cells, no lineage signature",myeloid,32,15,0.844,1021.0,3.152
+myeloid_17,Epithelial-contaminated (AGR2+ PIGR+),exclude,"AGR2, LCN2, PIGR, KRT18, SPINK1; 162 cells, 9 biopsies",myeloid,162,9,0.994,18462.5,11.169

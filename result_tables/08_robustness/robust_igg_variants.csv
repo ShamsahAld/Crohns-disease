@@ -1,0 +1,5 @@
+variant,measure,p_van_elteren
+base,IgG share (pseudobulk),0.0028997100289971
+drop HA98AC_inf,IgG share (pseudobulk),0.0047995200479952005
+OLS logit + biologic + age + ileocolonic,IgG share (pseudobulk),0.0010706558242895596
+"OLS logit, patient-clustered SE",IgG share (pseudobulk),0.0010990821410602593

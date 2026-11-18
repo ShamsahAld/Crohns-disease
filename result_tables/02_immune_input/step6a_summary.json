@@ -1,0 +1,18 @@
+{
+ "mt_cap": 15.0,
+ "n_cells_before": 65191,
+ "n_cells_after": 61538,
+ "n_genes": 30675,
+ "n_hvg": 3000,
+ "n_biopsies": 33,
+ "n_epithelial_dominant_genes": 1532,
+ "min_cells_per_biopsy": 518,
+ "median_cells_per_biopsy": 1714.0,
+ "lineage_counts": {
+  "T_NK": 24438,
+  "plasma": 19154,
+  "B": 8335,
+  "myeloid": 7509,
+  "mast": 2102
+ }
+}

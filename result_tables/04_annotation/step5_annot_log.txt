@@ -1,0 +1,60 @@
+loaded (61538, 30675)
+T_NK clusters: 13 | missing markers: {}
+plasma clusters: 7 | missing markers: {}
+myeloid clusters: 18 | missing markers: {}
+B clusters: 9 | missing markers: {}
+mast clusters: 5 | missing markers: {}
+   cluster  n_cells  n_biopsies  frac_inflamed_cells                    top1  top1_z                    top2
+    T_NK_0     2254          33                 0.63                   CD8_T    1.99           CD8_cytotoxic
+    T_NK_1     5365          33                 0.43                   CD8_T    1.75                     Trm
+   T_NK_10      971          32                 0.65                Tfh_like    1.61              naive_CM_T
+   T_NK_11      868          33                 0.68                      NK    3.02           CD8_cytotoxic
+   T_NK_12      204          32                 0.45                    ILC3    3.40                    Th17
+    T_NK_2      294          32                 0.71                 cycling    3.44                    Treg
+    T_NK_3     3211          33                 0.70                    Treg    2.89                Tfh_like
+    T_NK_4     2054          32                 0.50              naive_CM_T    2.80                   CD4_T
+    T_NK_5     1402          30                 0.36                     Trm    1.98                     gdT
+    T_NK_6     1985          33                 0.51                    Th17    1.87                     Trm
+    T_NK_7     4113          33                 0.50                   CD4_T    1.60                    Th17
+    T_NK_8     1068          33                 0.53                     Trm    0.31                     gdT
+    T_NK_9      649          33                 0.57                Tfh_like    0.22                    Th17
+  plasma_0     3299          33                 0.57           mature_plasma    1.04                     IgA
+  plasma_1     1814          32                 0.58           mature_plasma    1.51    immature_plasmablast
+  plasma_2     5080          33                 0.60                     IgM    0.73                     IgA
+  plasma_3     6542          33                 0.59                     IgA    1.22     cycling_plasmablast
+  plasma_4      344          29                 0.57                     IgG   -1.05                     IgM
+  plasma_5      580          31                 0.49    immature_plasmablast    1.19                     IgG
+  plasma_6     1495          33                 0.68                     IgG    1.76     cycling_plasmablast
+ myeloid_0      823          33                 0.66                    cDC2    2.59 inflammatory_macrophage
+ myeloid_1      548          31                 0.81      classical_monocyte    1.96   nonclassical_monocyte
+myeloid_10       63          17                 0.95                     pDC    3.97                    cDC2
+myeloid_11       71          17                 0.90               mature_DC    4.02                    cDC1
+myeloid_12       80          20                 0.54   nonclassical_monocyte    1.45      classical_monocyte
+myeloid_13      265          25                 0.68                 cycling    1.37   nonclassical_monocyte
+myeloid_14      208          12                 0.98              neutrophil    1.34 inflammatory_macrophage
+myeloid_15      853          16                 0.92              neutrophil    3.26 inflammatory_macrophage
+myeloid_16       32          15                 0.84               mature_DC    0.49                     pDC
+myeloid_17      162           9                 0.99      classical_monocyte   -0.04                    cDC1
+ myeloid_2      363          33                 0.61     resident_macrophage    1.58                    cDC2
+ myeloid_3     1310          33                 0.63     resident_macrophage    2.26   nonclassical_monocyte
+ myeloid_4      934          33                 0.65     resident_macrophage    2.35   nonclassical_monocyte
+ myeloid_5       39          16                 0.72                 cycling    3.62               mature_DC
+ myeloid_6      142          27                 0.65     resident_macrophage    0.76   nonclassical_monocyte
+ myeloid_7      178          29                 0.71                    cDC1    3.36                    cDC2
+ myeloid_8      303          32                 0.58                    cDC2    1.75                    cDC1
+ myeloid_9     1135          16                 0.98 inflammatory_macrophage    2.53      classical_monocyte
+       B_0     1012          32                 0.66              atypical_B    2.39                memory_B
+       B_1     2311          30                 0.69                memory_B    1.13             activated_B
+       B_2     1365          26                 0.67             activated_B    1.37                 naive_B
+       B_3      892          25                 0.75                 naive_B    1.39             activated_B
+       B_4      252          24                 0.70              atypical_B    0.11             activated_B
+       B_5     1441          27                 0.80             activated_B    1.49                 naive_B
+       B_6      326          17                 0.53                 cycling    2.38                    GC_B
+       B_7      623          18                 0.67                    GC_B    1.80              atypical_B
+       B_8      113          18                 0.90        plasmablast_like    2.82                 cycling
+    mast_0      812          32                 0.84          mast_activated    0.49               mast_core
+    mast_1       23          14                 0.48          mast_CMA1_CTSG    0.98          mast_activated
+    mast_2      458          32                 0.61          mast_activated    1.57          mast_CMA1_CTSG
+    mast_3      598          32                 0.80               mast_core    1.30          mast_CMA1_CTSG
+    mast_4      211          29                 0.86               mast_core   -0.66          mast_activated
+ANNOTATION CLUSTERING DONE

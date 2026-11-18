@@ -1,0 +1,10 @@
+(61538, 30675)
+candidate genes: 28677
+N=3000 reproduces existing list: True | overlap 3000
+N=2000: 2000 genes; overlap with 3000 list: 2000
+Monitored metric elbo_validation did not improve in the last 15 records. Best score: 646.388. Signaling Trainer to stop.
+TRAIN {"n_hvg": 2000, "epochs_run": 190, "best_epoch": 175, "val_elbo_first": 739.7579345703125, "val_elbo_last": 646.443115234375, "train_seconds": 1976}
+done 2000
+N=5000: 5000 genes; overlap with 3000 list: 3000
+Monitored metric elbo_validation did not improve in the last 15 records. Best score: 1339.596. Signaling Trainer to stop.
+TRAIN {"n_hvg": 5000, "epochs_run": 132, "best_epoch": 117, "val_elbo_first": 1480.0400390625, "val_elbo_last": 1340.0760498046875, "train_seconds": 8796}

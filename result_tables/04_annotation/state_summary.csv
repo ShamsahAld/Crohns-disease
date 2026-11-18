@@ -1,0 +1,52 @@
+immune_lineage,state,confidence,n_cells,n_biopsies
+B,Memory B (GPR183+),medium,2311,30
+B,Naive/transitional B (CXCR4+),medium,1441,27
+B,Naive/activated B (HLA-DR-high),medium,1365,26
+B,Memory B (TNFRSF13B+),medium,1012,32
+B,Naive B,high,892,25
+B,Germinal-centre B (RGS13+ LRMP+),high,623,18
+B,Cycling B (GC dark-zone-like),high,326,17
+B,B low-UMI,low,252,24
+B,Plasmablast (B-lineage cluster),high,113,18
+T_NK,CD8 tissue-resident memory,high,5365,33
+T_NK,IL7R+ memory CD4,medium,4113,33
+T_NK,Treg-like CD4 (CTLA4+ ICOS+),high,3211,33
+T_NK,CD8 GZMK+ effector-memory,high,2254,33
+T_NK,CD4 naive/central memory,medium,2054,32
+T_NK,MAIT/Th17-like,medium,1985,33
+T_NK,gd/innate-like IEL,high,1402,30
+T_NK,T low-UMI (CD8 Trm-like),low,1068,33
+T_NK,T low-UMI (CD4 ICOS+),low,971,32
+T_NK,NK,high,868,33
+T_NK,T low-UMI (IL7R+),low,649,33
+T_NK,Cycling T,high,294,32
+T_NK,ILC3,high,204,32
+mast,"Mast, activated (IEG-high)",medium,812,32
+mast,"Mast, core (KIT+ MS4A2+)",high,598,32
+mast,"Mast, resting (ribosomal-high)",medium,458,32
+mast,Mast low-information,low,211,29
+mast,Mast ambiguous (PTPRC+),exclude,23,14
+myeloid,Resident macrophage (C1Q+ SELENOP+),high,1310,33
+myeloid,Inflammatory macrophage/monocyte,high,1135,16
+myeloid,Neutrophil,high,1061,18
+myeloid,C1Q+ macrophage (low-UMI),medium,934,33
+myeloid,cDC2,high,823,33
+myeloid,Classical monocyte,high,548,31
+myeloid,Macrophage (CSF1R+),medium,363,33
+myeloid,Myeloid low-UMI (cDC2-like),low,303,32
+myeloid,Myeloid low-UMI (ribosomal),low,265,25
+myeloid,cDC1,high,178,29
+myeloid,Epithelial-contaminated (AGR2+ PIGR+),exclude,162,9
+myeloid,Myeloid MT-high low-information,low,142,27
+myeloid,Epithelial-contaminated (Paneth genes),exclude,80,20
+myeloid,Mature DC (LAMP3+),high,71,17
+myeloid,pDC,high,63,17
+myeloid,Myeloid ambiguous (39 cells),exclude,39,16
+myeloid,Myeloid ambiguous (32 cells),exclude,32,15
+plasma,"IgA plasma, stress-response (JUN/FOS)",medium,6542,33
+plasma,"IgA plasma, core",medium,5080,33
+plasma,"IgA plasma, MT-high",low,3299,33
+plasma,"IgA plasma, secretory (XBP1-high)",medium,1814,32
+plasma,Plasma low-UMI (ribosomal-high),low,1495,33
+plasma,"Plasmablast-like (MT-high, PTPRC+)",low,580,31
+plasma,Plasma low-quality (MT-high),exclude,344,29

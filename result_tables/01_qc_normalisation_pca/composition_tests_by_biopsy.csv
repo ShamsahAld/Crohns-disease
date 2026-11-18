@@ -1,0 +1,7 @@
+panel,denominator,n_non,n_inf,median_non,median_inf,mwu_p,site_adj_diff_pct_points,site_adj_p,mwu_q_BH,site_adj_q_BH
+epithelial,all cells,16,17,60.16566,31.77539,0.00017,-27.75991,2e-05,0.001,0.0001
+T_NK,immune cells,16,17,51.67149,35.93381,0.0183,-16.82417,0.00024,0.03024,0.00071
+plasma,immune cells,16,17,29.75213,32.87628,0.57661,5.01537,0.32247,0.69194,0.38696
+myeloid,immune cells,16,17,7.6941,13.45397,0.02016,6.38401,0.01695,0.03024,0.02543
+mast,immune cells,16,17,1.64062,4.78752,0.00296,2.58356,0.00531,0.00888,0.01063
+B,immune cells,16,17,5.80126,5.19276,0.87123,2.84123,0.4855,0.87123,0.4855

@@ -1,0 +1,7 @@
+set,n_pairs,median_adjacent_minus_inflamed,n_adjacent_lower,wilcoxon_p
+T/NK cells,17,-0.21283,10,0.08865
+all cells,17,-0.19733,10,0.09837
+epithelial cells,16,-0.78349,13,0.00058
+immune cells,17,-0.58017,12,0.00385
+myeloid cells,17,-0.64565,13,0.00557
+plasma cells,17,-0.28826,13,0.02016

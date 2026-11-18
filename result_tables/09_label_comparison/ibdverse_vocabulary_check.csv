@@ -1,0 +1,25 @@
+our_state,our_confidence,ibdverse_cell_types_by_name,name_level_match,comment
+CD8 tissue-resident memory,high,CD8+_TRM_TGCR2+,same,Same population name.
+CD8 GZMK+ effector-memory,high,CD8+_GZMK+; CD8+_EM_TIGIT+; CD8+_EM_THEMIS+,same,They split effector-memory into three clusters.
+gd/innate-like IEL,high,T_cell_GD_KLRG1+; Tissue_resident_T_cell_GD; T cell_GD_LEF1+,same,They split gamma-delta T cells into three clusters.
+Treg-like CD4 (CTLA4+ ICOS+),high,CD4+_Treg; Tissue_CD4+_Treg,same,They also have Treg clusters; supports reading our state as regulatory-like.
+CD4 naive/central memory,medium,CD4+_CRM/Naive; CD4+_CRM,same,
+IL7R+ memory CD4,medium,CD4+_memory; CD4+_memory_2; CD4+_memory_CXCR6+,related,"Memory CD4 clusters, no IL7R-based name."
+MAIT/Th17-like,medium,(none; nearest unnamed T_14 'Tissue_?'),none,No MAIT or Th17 label in the table; our own state is also only 66% MAIT in the authors' Zenodo labels.
+NK,high,NK1; NK2,same,
+ILC3,high,ILCs_Nkp44,same,NKp44+ ILCs.
+Cycling T,high,CD4- CD8-_Ki67+,same,Proliferating T cells.
+Naive B; Naive/activated B; Naive/transitional B,high/medium,Naive B cells; Resting B cell,same,
+Memory B (GPR183+); Memory B (TNFRSF13B+),medium,Memory B_CD27Lo_; Memory B_HIVEP3; Memory B_PTPRJ; Memory B_PDE4D_TEX9; Atypical_B_Cells,related,They split memory B into four clusters plus atypical B.
+Germinal-centre B; Cycling B (GC dark-zone-like),high,B_Cell germinal centre/plasmablast; B_Cell germinal centre/plasmablast_proliferating,same,
+Plasmablast (B-lineage cluster),high,B_Cell germinal centre/plasmablast,related,They group plasmablasts with germinal-centre B cells.
+"IgA plasma, core / secretory / stress-response",medium,"PlasmaB_CD38+; PlasmaB_CD38++; PlasmaB_CD38+++; PlasmaB_CD38++++,IgG+ IgA+",related,"They split plasma cells by CD38 level (maturity), one cluster IgG+IgA+; we split by secretory/stress programme (all IgA-dominant)."
+Mast (activated; resting; core),medium/high,Mast,same,They have one mast cluster; our three sub-states have no separate counterpart.
+Classical monocyte,high,Classical monocytes; Monocytes_S100A8/9+,same,
+Inflammatory macrophage/monocyte,high,Intermediate monocytes; CCL3/CCL4_CXCL9/10_Macrophages; Macrophages_MMP9+,related,Several inflammatory myeloid clusters; no single same-name cluster.
+Resident macrophage (C1Q+ SELENOP+); C1Q+ macrophage; Macrophage (CSF1R+),high/medium,Macrophages_CD163+; Macrophages_CD163++,related,
+cDC1,high,cDC1,same,
+cDC2,high,cDC2,same,
+pDC,high,pDCs,same,
+Mature DC (LAMP3+),high,(none),none,No mature/LAMP3+ DC name in the table.
+Neutrophil,high,(none),none,No neutrophil or granulocyte name in the table.

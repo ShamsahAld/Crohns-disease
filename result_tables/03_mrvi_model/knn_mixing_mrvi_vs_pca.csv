@@ -1,0 +1,13 @@
+space,lineage,n_cells,same_biopsy_neighbour_frac,expected_if_mixed,ratio_observed_to_expected,same_lineage_neighbour_frac
+MrVI u (sample-unaware),all,61538,0.1256,0.0389,3.2302,0.9954
+MrVI u (sample-unaware),B,8335,0.1682,0.1001,1.6801,0.9926
+MrVI u (sample-unaware),T_NK,24438,0.1143,0.0383,2.9869,0.999
+MrVI u (sample-unaware),mast,2102,0.1051,0.0636,1.654,0.9933
+MrVI u (sample-unaware),myeloid,7509,0.2349,0.0671,3.5029,0.9824
+MrVI u (sample-unaware),plasma,19154,0.081,0.0464,1.7458,0.9976
+"PCA of 3,000 HVGs",all,61538,0.2206,0.0389,5.6719,0.9968
+"PCA of 3,000 HVGs",B,8335,0.302,0.1001,3.0167,0.9947
+"PCA of 3,000 HVGs",T_NK,24438,0.181,0.0383,4.728,0.9982
+"PCA of 3,000 HVGs",mast,2102,0.1718,0.0636,2.7025,0.9977
+"PCA of 3,000 HVGs",myeloid,7509,0.3067,0.0671,4.5732,0.9923
+"PCA of 3,000 HVGs",plasma,19154,0.2074,0.0464,4.4714,0.9976

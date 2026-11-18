@@ -1,0 +1,50 @@
+== DESIGN CHECKS ==
+samples: 33 | patients: 28 | GSM unique: True | sample titles unique: True
+missing values per column: {'patient_id': 0, 'site': 0, 'status': 0, 'age': 0, 'biologic': 0, 'platform_id': 0}
+
+status x site:
+site          AC  TI
+status              
+inflamed       6  11
+non_inflamed   8   8
+
+status x biologic therapy:
+biologic      anti_IL12_IL23  anti_TNF  none
+status                                      
+inflamed                   5         8     4
+non_inflamed               4         7     5
+
+status x platform:
+platform_id   GPL18573  GPL24676
+status                          
+inflamed             1        16
+non_inflamed         0        16
+
+status x CD history:
+cd_history    colonic_CD  colonic_perianal_CD  ileal_CD  ileocolonic_CD  ileocolonic_perianal_CD  naive_CD
+status                                                                                                    
+inflamed               1                    1         3              10                        1         1
+non_inflamed           1                    0         1              14                        0         0
+
+patients with >1 sample: 5 ; patients contributing BOTH statuses: 1
+            n_samples               statuses  sites
+patient_id                                         
+HA26                2           non_inflamed  AC,TI
+HA27                2  inflamed,non_inflamed  AC,TI
+HA31                2           non_inflamed  AC,TI
+HA36                2           non_inflamed  AC,TI
+HA37                2           non_inflamed  AC,TI
+
+age by status (median, range): {'inflamed': {'median': 40.0, 'min': 19, 'max': 74}, 'non_inflamed': {'median': 32.0, 'min': 21, 'max': 66}}
+
+== MATRIX CHECKS ==
+total cells: 195633 ; per-sample cells min/median/max: 2140/4759/16089
+integer counts in all samples: True | duplicate barcodes: 0 | zero-UMI cells: 0
+distinct feature-list fingerprints: 1 | n_features per sample: [np.int64(36601)]
+min UMI per cell across samples (deposited-cell floor): 500 | min genes per cell: 20
+genes: union 36601 | in all samples 36601 | dropped by intersection 0
+duplicated gene symbols made unique: 10
+
+FINAL raw AnnData: 195633 cells x 36601 genes ; X dtype float32
+MT- genes found: 13 | MALAT1 present: True | PTPRC/EPCAM present: True True
+wrote ~/.claude-science-scratch/gse266616/processed/01_raw.h5ad

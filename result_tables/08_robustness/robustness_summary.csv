@@ -1,0 +1,92 @@
+area,headline,check,metric,value,detail,outcome
+Biopsy-level PCA,"all cells: inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.41, p 0.0001)",drop HA98AC_inf,p of best PC (site-adjusted OLS),1.3377943498378637e-06,"PC2, eta2 0.58",unchanged
+Biopsy-level PCA,"all cells: inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.41, p 0.0001)","top 1,000 variable genes",p of best PC (site-adjusted OLS),0.0001055817035399,"PC2, eta2 0.41",unchanged
+Biopsy-level PCA,"all cells: inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.41, p 0.0001)","top 5,000 variable genes",p of best PC (site-adjusted OLS),0.0001113457182725,"PC2, eta2 0.38",unchanged
+Biopsy-level PCA,"all cells: inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.41, p 0.0001)",+ biologic therapy,p of best PC (p_site_biologic),0.0001144768818865,"PC2, eta2 0.41",unchanged
+Biopsy-level PCA,"all cells: inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.41, p 0.0001)",+ age + ileocolonic location,p of best PC (p_site_age_loc),6.903804938066126e-05,"PC2, eta2 0.41",unchanged
+Biopsy-level PCA,"all cells: inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.41, p 0.0001)",patient-clustered SE,p of best PC (p_patient_clustered),2.7668477704807135e-05,"PC2, eta2 0.41",unchanged
+Biopsy-level PCA,"immune cells (MT<=15%): inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.29, p 0.0011)",drop HA98AC_inf,p of best PC (site-adjusted OLS),4.011395944757073e-06,"PC3, eta2 0.43",unchanged
+Biopsy-level PCA,"immune cells (MT<=15%): inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.29, p 0.0011)","top 1,000 variable genes",p of best PC (site-adjusted OLS),0.0001808495016092,"PC2, eta2 0.29",unchanged
+Biopsy-level PCA,"immune cells (MT<=15%): inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.29, p 0.0011)","top 5,000 variable genes",p of best PC (site-adjusted OLS),0.001126979501017,"PC2, eta2 0.32",unchanged
+Biopsy-level PCA,"immune cells (MT<=15%): inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.29, p 0.0011)",+ biologic therapy,p of best PC (p_site_biologic),0.0007015125888875,"PC2, eta2 0.29",unchanged
+Biopsy-level PCA,"immune cells (MT<=15%): inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.29, p 0.0011)",+ age + ileocolonic location,p of best PC (p_site_age_loc),0.001145836996309,"PC2, eta2 0.29",unchanged
+Biopsy-level PCA,"immune cells (MT<=15%): inflamed vs non-inflamed separates on a PC (base: PC2, eta2 0.29, p 0.0011)",patient-clustered SE,p of best PC (p_patient_clustered),0.0003361078625957,"PC2, eta2 0.29",unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",drop HA98AC_inf,van Elteren permutation p / BH q,9.999000099990002e-05,q 0.004,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",drop HA27 (both biopsies),van Elteren permutation p / BH q,9.999000099990002e-05,q 0.004,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",+ biologic + age + ileocolonic location,OLS-logit p / BH q,0.008582812489236,q 0.066,weaker
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",patient-clustered SE,cluster-robust OLS-logit p / BH q,0.0011825059052356,q 0.013,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",one biopsy per patient (300 draws),share of draws with p<0.05,1.0,,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",stricter MT cap 10%,van Elteren p / BH q,0.0001999800019998,q 0.004,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",denominator = all cells in biopsy,van Elteren p / BH q,9.999000099990002e-05,q 0.002,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)",MrVI density test (base),permutation p / BH q,0.0026997300269973,q 0.041,unchanged
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)","MrVI density test, drop HA98AC_inf",permutation p / BH q,0.001999800019998,q 0.031,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),drop HA98AC_inf,van Elteren permutation p / BH q,0.0028997100289971,q 0.019,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),drop HA27 (both biopsies),van Elteren permutation p / BH q,0.0015998400159984,q 0.013,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),+ biologic + age + ileocolonic location,OLS-logit p / BH q,0.0024057122839578,q 0.027,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),patient-clustered SE,cluster-robust OLS-logit p / BH q,0.0002298825232274,q 0.010,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),one biopsy per patient (300 draws),share of draws with p<0.05,1.0,,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),stricter MT cap 10%,van Elteren p / BH q,0.0031996800319968,q 0.030,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),denominator = all cells in biopsy,van Elteren p / BH q,0.1186881311868813,q 0.178,lost
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),MrVI density test (base),permutation p / BH q,0.0013998600139986,q 0.037,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),"MrVI density test, drop HA98AC_inf",permutation p / BH q,0.0018998100189981,q 0.031,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",drop HA98AC_inf,van Elteren permutation p / BH q,0.0005999400059994,q 0.007,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",drop HA27 (both biopsies),van Elteren permutation p / BH q,0.0012998700129987,q 0.013,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",+ biologic + age + ileocolonic location,OLS-logit p / BH q,0.0813975834315699,q 0.262,lost
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",patient-clustered SE,cluster-robust OLS-logit p / BH q,0.0238428396406097,q 0.134,weaker
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",one biopsy per patient (300 draws),share of draws with p<0.05,1.0,,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",stricter MT cap 10%,van Elteren p / BH q,0.0055994400559944,q 0.039,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",denominator = all cells in biopsy,van Elteren p / BH q,0.0006999300069993,q 0.004,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)",MrVI density test (base),permutation p / BH q,0.0015998400159984,q 0.037,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)","MrVI density test, drop HA98AC_inf",permutation p / BH q,0.0006999300069993,q 0.031,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),drop HA98AC_inf,van Elteren permutation p / BH q,0.0003999600039996,q 0.007,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),drop HA27 (both biopsies),van Elteren permutation p / BH q,0.0003999600039996,q 0.006,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),+ biologic + age + ileocolonic location,OLS-logit p / BH q,0.0008879625134439,q 0.014,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),patient-clustered SE,cluster-robust OLS-logit p / BH q,0.0005503736655323,q 0.012,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),one biopsy per patient (300 draws),share of draws with p<0.05,1.0,,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),stricter MT cap 10%,van Elteren p / BH q,0.0001999800019998,q 0.004,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),denominator = all cells in biopsy,van Elteren p / BH q,0.0001999800019998,q 0.003,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),MrVI density test (base),permutation p / BH q,0.0491950804919508,q 0.283,weaker
+Differential abundance,pDC up in inflamed (base q 0.004),"MrVI density test, drop HA98AC_inf",permutation p / BH q,0.0186981301869813,q 0.143,weaker
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),drop HA98AC_inf,van Elteren permutation p / BH q,0.0026997300269973,q 0.019,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),drop HA27 (both biopsies),van Elteren permutation p / BH q,0.0032996700329967,q 0.019,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),+ biologic + age + ileocolonic location,OLS-logit p / BH q,0.0002456799679162,q 0.011,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),patient-clustered SE,cluster-robust OLS-logit p / BH q,0.0007747026586894,q 0.012,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),one biopsy per patient (300 draws),share of draws with p<0.05,1.0,,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),stricter MT cap 10%,van Elteren p / BH q,0.0032996700329967,q 0.030,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),denominator = all cells in biopsy,van Elteren p / BH q,0.0180981901809819,q 0.041,unchanged
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),MrVI density test (base),permutation p / BH q,0.0076992300769923,q 0.089,weaker
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),"MrVI density test, drop HA98AC_inf",permutation p / BH q,0.0102989701029897,q 0.098,weaker
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),drop HA98AC_inf,van Elteren permutation p / BH q,0.000999900009999,q 0.009,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),drop HA27 (both biopsies),van Elteren permutation p / BH q,0.0017998200179982,q 0.013,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),+ biologic + age + ileocolonic location,OLS-logit p / BH q,0.0009617920253377,q 0.014,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),patient-clustered SE,cluster-robust OLS-logit p / BH q,0.0015280992024491,q 0.014,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),one biopsy per patient (300 draws),share of draws with p<0.05,1.0,,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),stricter MT cap 10%,van Elteren p / BH q,0.0006999300069993,q 0.010,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),denominator = all cells in biopsy,van Elteren p / BH q,9.999000099990002e-05,q 0.002,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),MrVI density test (base),permutation p / BH q,0.6572342765723428,q 0.840,lost
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),"MrVI density test, drop HA98AC_inf",permutation p / BH q,0.9013098690130988,q 0.982,lost
+Differential abundance,Plasma IgG share of heavy-chain UMI up in inflamed (base q 0.018),base,p,0.0028997100289971,,unchanged
+Differential abundance,Plasma IgG share of heavy-chain UMI up in inflamed (base q 0.018),drop HA98AC_inf,p,0.0047995200479952,,unchanged
+Differential abundance,Plasma IgG share of heavy-chain UMI up in inflamed (base q 0.018),OLS logit + biologic + age + ileocolonic,p,0.0010706558242895,,unchanged
+Differential abundance,Plasma IgG share of heavy-chain UMI up in inflamed (base q 0.018),"OLS logit, patient-clustered SE",p,0.0010990821410602,,unchanged
+Differential expression,T_NK called genes (156) keep FDR<0.05 with the same sign,drop HA98AC_inf,share of called genes retained,0.6794871794871795,direction kept for 1.00,weaker
+Differential expression,T_NK called genes (156) keep FDR<0.05 with the same sign,"full covariates (biologic, age, location)",share of called genes retained,0.9615384615384616,direction kept for 1.00,unchanged
+Differential expression,T_NK called genes (156) keep FDR<0.05 with the same sign,"patient-aware (limma-voom, duplicateCorrelation)",share of called genes retained,0.5641025641025641,direction kept for 1.00,weaker
+Differential expression,plasma called genes (167) keep FDR<0.05 with the same sign,drop HA98AC_inf,share of called genes retained,0.6766467065868264,direction kept for 1.00,weaker
+Differential expression,plasma called genes (167) keep FDR<0.05 with the same sign,"full covariates (biologic, age, location)",share of called genes retained,0.9041916167664672,direction kept for 1.00,unchanged
+Differential expression,plasma called genes (167) keep FDR<0.05 with the same sign,"patient-aware (limma-voom, duplicateCorrelation)",share of called genes retained,0.7365269461077845,direction kept for 1.00,weaker
+Differential expression,B called genes (15) keep FDR<0.05 with the same sign,drop HA98AC_inf,share of called genes retained,0.6666666666666666,direction kept for 1.00,weaker
+Differential expression,B called genes (15) keep FDR<0.05 with the same sign,"full covariates (biologic, age, location)",share of called genes retained,0.6666666666666666,direction kept for 1.00,weaker
+Differential expression,B called genes (15) keep FDR<0.05 with the same sign,"patient-aware (limma-voom, duplicateCorrelation)",share of called genes retained,0.2,direction kept for 1.00,lost
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)","MrVI retrained, 2,000 HVGs",permutation p / BH q,0.0065993400659934,q 0.077,weaker
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),"MrVI retrained, 2,000 HVGs",permutation p / BH q,0.0022997700229977,q 0.077,weaker
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)","MrVI retrained, 2,000 HVGs",permutation p / BH q,0.003999600039996,q 0.077,weaker
+Differential abundance,pDC up in inflamed (base q 0.004),"MrVI retrained, 2,000 HVGs",permutation p / BH q,0.1106889311068893,q 0.424,lost
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),"MrVI retrained, 2,000 HVGs",permutation p / BH q,0.0067993200679932,q 0.077,weaker
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),"MrVI retrained, 2,000 HVGs",permutation p / BH q,0.460953904609539,q 0.734,lost
+Differential abundance,"Mast, activated (IEG-high) up in inflamed (base q 0.007)","MrVI retrained, 5,000 HVGs",permutation p / BH q,0.0012998700129987,q 0.028,unchanged
+Differential abundance,CD8 tissue-resident memory down in inflamed (base q 0.009),"MrVI retrained, 5,000 HVGs",permutation p / BH q,0.0003999600039996,q 0.018,unchanged
+Differential abundance,"Mast, core (KIT+ MS4A2+) up in inflamed (base q 0.028)","MrVI retrained, 5,000 HVGs",permutation p / BH q,0.0023997600239976,q 0.028,unchanged
+Differential abundance,pDC up in inflamed (base q 0.004),"MrVI retrained, 5,000 HVGs",permutation p / BH q,0.0706929307069293,q 0.391,lost
+Differential abundance,gd/innate-like IEL down in inflamed (base q 0.009),"MrVI retrained, 5,000 HVGs",permutation p / BH q,0.001999800019998,q 0.028,unchanged
+Differential abundance,Plasmablast (B-lineage cluster) up in inflamed (base q 0.009),"MrVI retrained, 5,000 HVGs",permutation p / BH q,0.1545845415458454,q 0.545,lost

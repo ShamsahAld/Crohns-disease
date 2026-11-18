@@ -1,0 +1,25 @@
+{
+ "scvi": "1.5.2",
+ "torch": "2.15.0+cpu",
+ "threads": 8,
+ "batch_size": 128,
+ "max_epochs": 300,
+ "seed": 0,
+ "train_seconds": 1657.2930254936218,
+ "epochs_run": 157,
+ "best_epoch": 142,
+ "val_elbo_first": 1028.5595703125,
+ "val_elbo_last": 915.168212890625,
+ "val_elbo_min": 914.7984008789062,
+ "val_change_last10_pct": 0.024689109674415285,
+ "stopped_early": true,
+ "n_cells": 61538,
+ "n_genes": 3000,
+ "n_biopsies": 33,
+ "covariates_for_tests": [
+  "status",
+  "site",
+  "biologic"
+ ],
+ "note": "step 4 of the immune-only MrVI analysis; training log line parsed from train_log.txt"
+}

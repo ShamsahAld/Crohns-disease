@@ -1,0 +1,21 @@
+unit,genes_tested,pb_FDR05,pb_sig,called,robust,pb_robust_not_mrvi_covered,called_up,called_down,pb_sig_not_in_mrvi_genes,pb_sig_guarded_or_ambient,n_biopsies,n_inflamed,n_non
+lineage:B,6979,92,92,15,3,15,13,2,49,22,27,14,13
+lineage:T_NK,11088,791,788,156,86,301,124,32,525,59,33,17,16
+lineage:mast,2545,45,45,6,0,3,2,4,24,0,23,14,9
+lineage:myeloid,7946,41,41,10,2,9,9,1,22,0,33,17,16
+lineage:plasma,10810,975,971,167,115,218,113,54,627,170,33,17,16
+state:CD4 naive/central memory,2737,3,3,0,0,0,0,0,2,1,19,11,8
+state:CD8 GZMK+ effector-memory,2114,9,9,3,1,2,1,2,6,0,30,17,13
+state:CD8 tissue-resident memory,6152,46,46,7,3,26,4,3,39,0,31,16,15
+state:IL7R+ memory CD4,4360,43,43,13,10,18,6,7,28,2,31,15,16
+"state:IgA plasma, core",6925,486,486,97,81,136,62,35,300,83,31,17,14
+"state:IgA plasma, secretory (XBP1-high)",4626,61,61,16,6,14,11,5,41,4,29,17,12
+"state:IgA plasma, stress-response (JUN/FOS)",7167,405,405,96,65,89,62,34,246,60,32,17,15
+state:MAIT/Th17-like,3555,21,21,11,6,3,8,3,9,1,28,16,12
+state:Memory B (GPR183+),3250,7,7,2,1,1,2,0,3,2,19,11,8
+state:NK,1654,1,1,0,0,0,0,0,1,0,17,11,6
+state:Naive/activated B (HLA-DR-high),3300,0,0,0,0,0,0,0,0,0,11,5,6
+state:Resident macrophage (C1Q+ SELENOP+),4697,2,2,0,0,1,0,0,2,0,23,15,8
+state:Treg-like CD4 (CTLA4+ ICOS+),3414,41,41,17,7,6,9,8,19,3,28,16,12
+state:cDC2,4674,11,11,3,1,3,1,2,7,1,18,11,7
+state:gd/innate-like IEL,4148,5,5,2,2,0,1,1,3,0,19,8,11

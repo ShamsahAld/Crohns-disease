@@ -1,0 +1,14 @@
+# keep data and large binaries out of the repository
+*.h5ad
+*.h5
+*.npz
+*.pt
+*.ckpt
+*.mtx
+*.mtx.gz
+*.tar
+*.tar.gz
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/

@@ -1,0 +1,11 @@
+lin,status,gt15
+B,non_inflamed,3.81
+B,inflamed,3.86
+T_NK,non_inflamed,7.1
+T_NK,inflamed,7.57
+mast,non_inflamed,13.63
+mast,inflamed,6.9
+myeloid,non_inflamed,7.49
+myeloid,inflamed,6.99
+plasma,non_inflamed,2.61
+plasma,inflamed,3.41

@@ -1,0 +1,1 @@
+{"n_hvg": 5000, "epochs_run": 182, "best_epoch": 167, "val_elbo_first": 1480.124755859375, "val_elbo_last": 1339.9268798828125, "train_seconds": 2315, "seconds_total": 2430}

@@ -1,0 +1,7 @@
+measure,n_biopsies,median_non,median_inf,mwu_p,siteadj_diff,siteadj_p
+ambient_median,33,0.006385,0.005953,0.928244,-0.000104,0.85785
+ambient_median_T_NK,33,0.007237,0.008137,0.505152,0.000477,0.412017
+ambient_median_plasma,33,0.002351,0.002214,0.626757,-6.1e-05,0.752174
+ambient_median_myeloid,33,0.011515,0.012723,0.10894,0.000622,0.345074
+ambient_median_mast,33,0.017821,0.016144,0.213958,-0.001067,0.160369
+ambient_median_B,32,0.006838,0.006497,0.406098,-0.000527,0.402907

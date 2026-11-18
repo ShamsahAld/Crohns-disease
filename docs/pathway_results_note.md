@@ -1,0 +1,27 @@
+# Pathway enrichment, inflamed vs non-inflamed (plan step 9)
+
+**Gene sets.** MSigDB Hallmark (50 sets) and Reactome (1,615 sets), human symbols, from the bundled data of msigdbr 7.5.1 (offline; the current msigdbr release downloads from zenodo.org, which is not on the network allowlist, so a dedicated R environment `r_pathway` with 7.5.1 was used). Sets are restricted to the tested background and need 10-500 genes there. BH within each unit and collection.
+
+**Three views of the same changes**
+1. **Ranked-list GSEA on pseudobulk** (fgsea multilevel): all tested genes of the unit ranked by signed sqrt(F) from the site-adjusted edgeR model; guarded genes (Ig, epithelial-dominant, mito/ribo/Hb, sex) and ambient-risk genes are removed from the ranking first.
+2. **Ranked-list GSEA on MrVI** mean log fold change of the 3,000 model genes (within-cell-state, so independent of composition shifts). Its p-values assume independent genes and have no biopsy-level error model, so it is a consistency check only. A pathway is called **consistent** when pseudobulk padj < 0.05 and MrVI-ranked padj < 0.1 with the same direction.
+3. **Over-representation (ORA)** of (a) genes called by both DE methods, background = tested genes that MrVI also models, and (b) a broader robust list (robust calls plus pseudobulk-only genes outside the MrVI gene set that pass the patient-aware and therapy/age models), background = all tested genes.
+
+## Results (Hallmark, fig09a; full tables in the CSVs)
+Number of Hallmark sets with pseudobulk padj < 0.05 / consistent with MrVI: T/NK 12 / 5, B 19 / 3, myeloid 24 / 8, mast 6 / 1, plasma 1 / 0. Spearman correlation of NES between the two rankings: T/NK 0.56, plasma 0.57, B 0.49, myeloid 0.46, mast 0.12; among pseudobulk-significant sets the MrVI direction matches in 91 % (T/NK), 100 % (B), 87 % (myeloid), and 40 % (mast).
+- **T/NK:** proliferation (G2M checkpoint, E2F targets; mitotic spindle significant in pseudobulk), TNF-alpha signalling via NF-kB, interferon-alpha response and apoptosis up in inflamed biopsies, all consistent with MrVI. ORA of the called genes confirms G2M checkpoint (19 of 69 genes in set, BH 5e-7), E2F targets (13/62), mitotic spindle (10/47) and Reactome cell-cycle sets.
+- **Myeloid:** TNF-alpha/NF-kB, interferon-gamma and -alpha response, inflammatory response, IL6-JAK-STAT3, complement, allograft rejection and KRAS-up are up, all consistent with MrVI; oxidative phosphorylation is lower (pseudobulk only).
+- **B lineage:** interferon-gamma/alpha response and TNF-alpha/NF-kB up (consistent). Unfolded-protein response, protein secretion and mTORC1 are also up by pseudobulk but not by MrVI; these follow the plasmablast-like cells that are more abundant in inflamed biopsies, which was not tested separately.
+- **States:** cDC2 (11 inflamed vs 7 non-inflamed biopsies) shows five consistent sets (interferon-gamma and -alpha, TNF-alpha/NF-kB, inflammatory response, complement); interferon-gamma response is consistent in resident macrophages and in IgA plasma cells (core).
+- **Plasma lineage:** only apoptosis reaches padj < 0.05 although many genes change; the strongest plasma genes (for example NRG3, NPAS3, CECR2, UCHL1) are not in annotated Hallmark sets. IgA plasma states (broad list) show respiratory-chain / oxidative-phosphorylation sets up (Reactome BH about 6e-4 in the stress-response state).
+- **Mast:** TNF-alpha/NF-kB only is consistent; oxidative phosphorylation and MYC targets are lower by pseudobulk but not supported by MrVI.
+
+## Consistent with known Crohn's-disease biology, and what is not
+- **Consistent:** TNF-alpha/NF-kB, interferon-gamma/alpha, inflammatory response, IL6-JAK-STAT3, IL2-STAT5 and complement signalling in myeloid cells, cDC2 and B cells; proliferating (G2M/E2F) T cells. These are the expected cytokine and innate-activation programmes of active mucosal inflammation, but they are generic inflammatory programmes and not Crohn's-specific.
+- **Not interpretable for this question:** estrogen/androgen response, UV response, adipogenesis, myogenesis, apical junction, KRAS (non-specific MSigDB sets whose members are mostly general stress, immediate-early or housekeeping genes).
+- **Direction depends on cell type and needs caution:** oxidative phosphorylation is lower in T/NK, myeloid, mast and resident macrophages and higher in B and IgA plasma cells (likely a plasma-cell biosynthetic program). Median mitochondrial fraction and library size do not differ by status in T/NK, plasma or B cells (van Elteren p 0.15-0.93), but in mast cells inflamed biopsies have higher library size (p = 0.004) and lower ribosomal fraction (p = 0.011), and in myeloid cells higher library size (p = 0.036); technical differences may contribute to the mast and, partly, the myeloid results.
+
+## Caveats
+- Lineage-level pseudobulk ranking mixes composition and within-state changes (for example more neutrophils and inflammatory macrophage/monocytes in some inflamed biopsies raise inflammatory-response scores in the myeloid lineage); the MrVI-consistent flag is the guard against this and the main reason to prefer the ringed sets.
+- Thresholds: consistent = padj < 0.05 (pseudobulk) and padj < 0.1 (MrVI); neither is a calibrated joint error rate.
+- Gene symbols follow MSigDB 7.5.1 (2022); some current symbols differ and are lost from sets. Everything is exploratory (33 biopsies, 28 patients).

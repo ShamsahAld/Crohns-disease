@@ -1,0 +1,8 @@
+subset,n_cells,our_states,their_labels,ARI,NMI,homogeneity_their_labels_within_our_states,completeness_our_states_within_their_labels,purity_of_our_states,purity_of_their_labels
+all immune (excluded clusters removed),25343,44,21,0.446,0.728,0.816,0.657,0.833,0.553
+high+medium confidence states only,21962,33,21,0.555,0.775,0.827,0.729,0.846,0.638
+our lineage T_NK,12047,13,11,0.451,0.586,0.619,0.556,0.733,0.666
+our lineage B,3351,9,6,0.392,0.547,0.764,0.426,0.937,0.51
+our lineage plasma,5492,6,5,0.024,0.026,0.078,0.016,0.91,0.316
+our lineage myeloid,3559,12,9,0.562,0.67,0.829,0.563,0.914,0.659
+our lineage mast,894,4,3,0.001,0.012,0.203,0.006,0.994,0.35

@@ -1,0 +1,8 @@
+comparison,n_new,n_other,n_shared
+"new immune HVGs vs previous immune HVGs (MT<=25, Ig constant genes allowed)",3000,3000,1522
+new immune HVGs vs all-cell HVGs (step 4),3000,3000,1226
+previous immune HVGs that were epithelial-dominant,0,3000,489
+previous immune HVGs that were Ig-locus genes,0,3000,19
+new HVGs nominated by all 33 biopsies,3000,33,310
+new HVGs nominated by <=2 biopsies,3000,2,0
+new HVGs nominated by <=5 biopsies,3000,5,0
