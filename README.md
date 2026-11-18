@@ -3,7 +3,7 @@
 Course project (CBIO7102). Single-cell RNA-seq of intestinal biopsies from the public dataset **GEO GSE266616**: we compare **inflamed vs non-inflamed Crohn's disease (CD)** biopsies, focusing on immune cell composition and expression within cell types. Adjacent-to-inflamed biopsies and non-IBD controls are used only as reference groups. All results are **exploratory** (33 biopsies from 28 patients; the biopsy is the unit of analysis).
 
 ## Data
-- GSE266616: 85 biopsies from 46 donors (terminal ileum and ascending colon), 497,181 deposited barcodes. (GEO's summary text says 79 biopsies / 32 CD; the sample records show 85 / 46.)
+- GSE266616: 85 biopsies from 46 donors (terminal ileum and ascending colon), 497,181 deposited barcodes. 
 - Primary comparison: 33 CD biopsies (17 inflamed, 16 non-inflamed) from 28 patients. The immune-only analysis uses 61,538 immune cells (mitochondrial reads <= 15%).
 - **No data are stored in this repository.** `scripts/01_download_geo.py` downloads and verifies the GEO files.
 
